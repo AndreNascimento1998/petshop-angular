@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TopBarComponent } from './shared/top-bar/top-bar.component';
+import {HomePageComponent} from "./components/home-page/home-page.component";
 
 export const routes: Routes = [
+  { path: '', component: HomePageComponent },
   //{ path: 'top', component: TopBarComponent }
 ];
 
