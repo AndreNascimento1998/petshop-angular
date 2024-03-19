@@ -1,1 +1,14 @@
+@keyframes colorChange {
+  0% { background-color: #868fdc; }
+  70% { background-color: #5862af; }
+  100% { background-color: #515BAC; }
+}
 
+.blink {
+  color: white;
+  animation: colorChange 2s infinite;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
